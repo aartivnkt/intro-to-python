@@ -1,6 +1,6 @@
 ## Python is just the language for you, for almost anything.
 
-```
+```bash
 - Bioinformatics
 - Data Science
 - AI/ML
@@ -11,7 +11,7 @@
 ```
 
 ## Simple to use, real programming language!
-```
+```bash
 high-level interpreted language, no compilation or linking needed
 high-level data types, flexible arrays and dictionaries
 Modules and re-usability
