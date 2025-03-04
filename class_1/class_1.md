@@ -33,8 +33,8 @@ To install using pip, run
 pip3 install jupyterlab
 ```
 
-### Test JupyterLab
-After pip installation, launch using `jupyter lab`. Start working on `worksheet1.ipynb` to experiment with your first jupyterlab notebook that uses Python 3.12.7. Only run cells until `virtualenv` set up and close the notebook. Move onto the next section
+### Experiment with JupyterLab
+After pip installation, launch using `jupyter lab`. Start working on `worksheet_1a.ipynb` to experiment with your first jupyterlab notebook that uses system Python 3.12.7. Close notebook and move onto the next section once complete. 
 
 ## Managing Python versions with `virtualenv`
 
@@ -58,11 +58,15 @@ source venv_3.12.7/bin/activate
 ```
 
 ### Ensure python 3.12.7 kernel can be selected in JupyerLab
-close any JupyterLab sessions if you have them open
-
+Close any JupyterLab sessions if you have them open
+Run the following
 ```
 pip install jupyterlab ipykernel
 python -m ipykernel install --user --name=venv_3.12.7 --display-name "Python 3.12.7"
 ```
 
-Type `jupyter lab` again to re-open `worksheet1.ipynb` and choose "Python 3.12.7" kernel from the top right to continue working through it
+Type `jupyter lab` again and work on `worksheet_1b.ipynb` this time, choosing "Python 3.12.7" kernel from the top right
+
+### Introduction to Jupyter Lab
+Run `worksheet_1c.ipynb` in virtualenv to experiment with fun things in Jupyter Lab!`
+
