@@ -56,4 +56,13 @@ source venv_3.12.7/bin/activate
 deactivate
 source venv_3.12.7/bin/activate
 ```
-Type `jupyter lab` again to re-open `worksheet1.ipynb` and continue working through it
+
+### Ensure python 3.12.7 kernel can be selected in JupyerLab
+close any JupyterLab sessions if you have them open
+
+```
+pip install jupyterlab ipykernel
+python -m ipykernel install --user --name=venv_3.12.7 --display-name "Python 3.12.7"
+```
+
+Type `jupyter lab` again to re-open `worksheet1.ipynb` and choose "Python 3.12.7" kernel from the top right to continue working through it
