@@ -14,7 +14,7 @@ We will use Python 3.12.7 in this class
 
 Links to install Python depend on the OS, see links in this page to different installations https://www.python.org/downloads/
 
-For macOS go to https://www.python.org/->downloads->macOS and download the macOS 64-bit universal2 installer. Double click on the installer and install it. Then under applications, it will create a python 3.12 folder. Double click install certificates command to install certs, and double click update shell profile command to update shell profile
+For macOS go to https://www.python.org/downloads/macos/ and download the macOS 64-bit universal2 installer. Double click on the installer and install it. Then under applications, it will create a python 3.12 folder. Double click install certificates command to install certs, and double click update shell profile command to update shell profile
 
 ### Test Python installation
 Open terminal, type `python3`, it should show you Python 3.12.7 version. To ensure Python and pip match up, check with
@@ -66,6 +66,13 @@ python -m ipykernel install --user --name=venv_3.12.7 --display-name "Python 3.1
 ```
 
 Type `jupyter lab` again and work on `worksheet_1b.ipynb` this time, choosing "Python 3.12.7" kernel from the top right
+
+### Remove all packages from `virtualenv`
+To remove all packages from `virtualenv`, run the following:
+```bash
+rm -rf venv_3.12.7
+```
+Then follow all the steps for re-creating `virtualenv`, see `Activate virtualenv` section above
 
 ### Introduction to Jupyter Lab
 Run `worksheet_1c.ipynb` in virtualenv to experiment with fun things in Jupyter Lab!`
