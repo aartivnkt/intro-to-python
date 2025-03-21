@@ -5,6 +5,7 @@ Github repo for the Intro to Python class BIOS_26123
 To see this page, you need to clone this git repo
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 Then run `git clone git@github.com:aartivnkt/intro-to-python.git` to clone this repo
+Before each class, remember to pull the latest git changes using `git pull origin master`
 
 ## Install Python
 
@@ -14,7 +15,7 @@ We will use Python 3.12.7 in this class
 
 Links to install Python depend on the OS, see links in this page to different installations https://www.python.org/downloads/
 
-For macOS go to https://www.python.org/downloads/macos/ and download the macOS 64-bit universal2 installer. Double click on the installer and install it. Then under applications, it will create a python 3.12 folder. Double click install certificates command to install certs, and double click update shell profile command to update shell profile
+For macOS go to https://www.python.org/downloads/macos/ and download the macOS 64-bit universal2 installer. Double click on the installer and install it. Then under applications, it will create a Python 3.12 folder and automatically open the finder window for you. Double click install certificates command to install certs, and double click update shell profile command to update shell profile
 
 ### Test Python installation
 Open terminal, type `python3`, it should show you Python 3.12.7 version. To ensure Python and pip match up, check with
