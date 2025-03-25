@@ -35,7 +35,7 @@ pip3 install jupyterlab
 ```
 
 ### Experiment with JupyterLab
-After pip installation, launch using `jupyter lab`. Start working on `worksheet_1a.ipynb` to experiment with your first jupyterlab notebook that uses system Python 3.12.7. Close notebook and move onto the next section once complete. 
+After pip installation, launch using `jupyter lab` in the directory called `intro-to-python`, where the cloned github repo of the class lives. Start working on `worksheet_1a.ipynb` to experiment with your first jupyterlab notebook that uses system Python 3.12.7. Close notebook and move onto the next section once complete. 
 
 ## Managing Python versions with `virtualenv`
 
