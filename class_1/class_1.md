@@ -5,7 +5,7 @@ Github repo for the Intro to Python class BIOS_26123
 To see this page, you need to clone this git repo
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 Then run `git clone git@github.com:aartivnkt/intro-to-python.git` to clone this repo.
-Before each class, remember to pull the latest git changes using `git pull origin master`
+Before each class, remember to pull the latest git changes using `git pull origin main`
 
 ## Install Python
 
