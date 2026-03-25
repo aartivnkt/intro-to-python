@@ -69,3 +69,15 @@ At the top of the page, there is a `Password or token:` field, with a box to typ
 http://127.0.0.1:8888/lab?token=XYZ....
 
 Copy the token value (the `XYZ..` part) by right-click-> copy. Leave the command running in the terminal, ensure it is not killed by Ctrl-C! Paste the token value in the box and hit "Log in" to authenticate.
+
+# What to do before each class
+
+Before each class, you need to "pull" the latest changes from the class github and run the `docker run` command that works for you.
+
+```bash
+cd intro-to-python
+git pull origin main
+docker run.... # replace with the command that works for you
+```
+
+
