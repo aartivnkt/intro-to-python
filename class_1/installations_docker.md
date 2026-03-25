@@ -66,6 +66,12 @@ docker run -p 8888:8888 -v "$(pwd -W):/workspace" intro-to-python-course
 This will show you a link of the type `http://127.0.0.1...`. Right click it to copy, and paste in a browser window. Make sure to not cancel this command in the terminal (Ctrl-C)!
 Running it in a browser should show you all the materials in the `class_1` directory. Verify by checking against github `https://github.com/aartivnkt/intro-to-python/tree/main/class_1`.
 
+For Mac OSX, run the following command:
+
+```bash
+docker run -p 8888:8888 -v $(pwd):/workspace intro-to-python-course
+```
+
 # Token authentication is enabled page
 If you see a "Token authentication is enabled" page from jupyter, try the following:
 
