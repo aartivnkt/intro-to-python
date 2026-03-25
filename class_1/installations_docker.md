@@ -12,7 +12,12 @@ docker run hello-world
 # Clone the class github repo
 
 To view all the class materials, clone the class github repo. See `installations_github` file for details and set it up.
-Make sure you are in the `intro-to-python` github repo, before going forward to the other steps listed below.
+Make sure you are in the `intro-to-python` github repo directory, before going forward to the other steps listed below. You
+can ensure that by running the command below:
+
+```bash
+cd intro-to-python
+```
 
 # Run a pre-built image
 
