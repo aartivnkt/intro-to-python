@@ -81,6 +81,24 @@ http://127.0.0.1:8888/lab?token=XYZ....
 
 Copy the token value (the `XYZ..` part) by right-click-> copy. Leave the command running in the terminal, ensure it is not killed by Ctrl-C! Paste the token value in the box and hit "Log in" to authenticate.
 
+If you still get errors like "invalid credentials", go to Docker Desktop and delete all the containers that are running to start from a clean slate. Then re-run the following command:
+
+```bash
+docker run -p 8888:8888 -v $(pwd):/workspace aartiv/intro-to-python-course
+```
+
+# Issues with mounting the right files in docker
+
+If you don't see the right files mounted in jupyterlab, go to Docker Desktop and delete all the containers that are running to start from a clean slate. Then re-run the following command:
+
+```bash
+docker run -p 8888:8888 -v $(pwd):/workspace aartiv/intro-to-python-course
+```
+If you are still unable to see them, some system-specific changes may be needed to ensure $(pwd) is expanded correctly. You could force jupyter to start in `/workspace` by running the command below:
+
+```bash
+docker run -p 8888:8888 -v "$PWD:/workspace" -w /workspace aartiv/intro-to-python-course
+```
 # What to do before each class
 
 Before each class, you need to "pull" the latest changes from the class github and run the `docker run` command that works for you.
